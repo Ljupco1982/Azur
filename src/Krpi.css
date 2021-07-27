@@ -1,0 +1,18 @@
+.krpi__img {
+  height: 75vh;
+}
+.krpi__text > h1 {
+  padding-top: 10px;
+  font-size: medium;
+}
+.krpi__logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+@media (max-width: 768px) {
+  .krpi__text > h1 {
+    padding: 0 40px;
+    font-size: medium;
+  }
+}

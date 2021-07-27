@@ -1,0 +1,174 @@
+.konec {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.konec__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  margin-top: 25px;
+}
+
+.konec__logo:hover{
+  background-color: orange;
+}
+
+.konec__img > img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+
+}
+
+.konec__logo {
+  object-fit: contain;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-top: 1px solid orange;
+  border-left: 1px solid orange;
+  border-right: 1px solid orange;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+
+.konec__text {
+  margin-top: 15px;
+
+}
+
+.konec__text > h1 {
+  color: white;
+  width: 60%;
+  margin: auto;
+  font-size: medium;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.konec__logo:hover {
+  background-color: orange;
+  transform: scale(1.05);
+  transition: all 0.5s ease-in;
+}
+
+.konec__img > img {
+  width: 340px;
+  height: 215px;
+  object-fit: cover;
+}
+
+a > img {
+  width: 440px;
+  height: auto;
+  object-fit: contain;
+}
+
+.konec__text {
+  margin-top: 15px;
+}
+
+.konec__text > h1 {
+  color: white;
+  width: 60%;
+  margin: auto;
+  font-size: medium;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.konec__image,
+.konec-lightbox__image {
+  height: 440px;
+  width: 900px;
+}
+
+.konec-lightbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0, 1);
+  transition: transform 150ms ease-in-out;
+  transform-origin: right;
+  padding: 7em;
+  position: fixed;
+  top: 3%;
+  left: 0;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}
+
+.konec-lightbox:target {
+  transform: scale(1, 1);
+  transform-origin: left;
+}
+
+.konec-lightbox__content {
+  border-top: 1px solid orange;
+  border-left: 1px solid orange;
+  border-right: 1px solid orange;
+  border-radius: 15px;
+  padding: 10px;
+  background: black;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  right: -1em;
+  top: -1em;
+  border: white 2px solid;
+  display: flex;
+  width: 78em;
+  height:37em;
+  background: red;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  z-index: 100;
+  opacity: 0;
+}
+
+.close::after {
+  content: 'x';
+  color: white;
+}
+@media (max-width: 1020px) {
+  .konec__image,
+  .konec-lightbox__image {
+    height: 400px;
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  .konec__image,
+  .konec-lightbox__image {
+    height: 400px;
+    width: 400px;
+  }
+  @media (max-width: 720px) {
+    
+    .konec-lightbox__image {
+      max-width: 330px;
+   
+    }
+  
+    .konec__logo {
+      max-width: 90%;
+    }
+  }
+}

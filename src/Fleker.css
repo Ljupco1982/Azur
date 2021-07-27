@@ -1,0 +1,210 @@
+.fleker {
+ 
+  padding-bottom: 50px;
+}
+
+.fleker__img {
+  height: 5vh;
+  border-bottom: 1px solid orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 1px;
+}
+
+.fleker__images {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ background-image: url(/src/fleker/three-colorful-arrows-racing-straight-up-on-a-black-background.jpg);
+
+}
+
+.fleker__button button {
+  margin: 5px;
+  padding: 7px 15px;
+  border-top: 1px solid orange;
+  border-left: 1px solid orange;
+  text-transform: inherit;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.7);
+  outline: none;
+}
+.fleker__button button:hover {
+  opacity: 2;
+  color: rgb(245, 242, 106);
+  transform: scale(0.95);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.linnk {
+  color: orange;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: bold;
+}
+
+.linnk > p {
+  color: orange;
+  font-size: 15px;
+}
+
+.linnk:hover > p {
+  color: black;
+}
+
+.fleker__imgg:hover {
+  transform: scale(1.01);
+  transition:  0.8s ease-in;
+
+}
+
+.fleker__picture  {
+  box-shadow: 5px 5px 5px rgba(204, 178, 32, 0.7);
+  margin: 0 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 4px;
+  width: 340px;
+  height: 215px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.fleker__img > h1 {
+  color: orange;
+}
+
+
+.fleker__image,
+.fleker-lightbox__image {
+  height: 580px;
+  width: 700px;
+}
+
+
+.fleker-lightbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0, 1);
+  transition: transform 150ms ease-in-out;
+  transform-origin: right;
+  padding: 7em;
+  position: fixed;
+  top: 3%;
+  left: 0;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}
+
+.fleker-lightbox:target {
+  transform: scale(1, 1);
+  transform-origin: left;
+}
+
+.fleker-lightbox__content {
+  border-top: 1px solid orange;
+  border-left: 1px solid orange;
+  border-right: 1px solid orange;
+  border-radius: 15px;
+  padding: 10px;
+  background: black;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  right: -1em;
+  top: -1em;
+  border: white 2px solid;
+  display: flex;
+  width: 78em;
+  height: 37em;
+  background: red;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  z-index: 100;
+  opacity: 0;
+}
+
+.close::after {
+  content: 'x';
+  color: white;
+}
+
+
+@media (max-width: 1020px) {
+  .pic{
+    width: 30%;
+  }
+  .fleker__image,
+  .fleker-lightbox__image {
+    height: 550px;
+    width: 550px;
+  }
+  .linnk > p {
+    
+    font-size: 12px;
+  }
+  .fleker__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .fleker__logo {
+    width: 100%;
+    height: 80px;
+  }
+  .fleker__img > h1 {
+    font-size: 15px;
+    padding: 5px;
+  }
+  .fleker__img2 > h1 {
+    font-size: 15px;
+    padding: 5px;
+  }
+  .fleker__logo1 {
+    height: 70px;
+  }
+
+  .fleker__logo {
+    height: 90px;
+  }
+  
+}
+@media (max-width: 720px) {
+  .fleker__image,
+  .fleker-lightbox__image {
+    height: 520px;
+    width: 420px;
+  }
+
+  .fleker-lightbox__image {
+    max-width: 330px;
+ 
+  }
+  .linnk > p {
+    
+    font-size: 8px;
+  }
+  
+  .pic {
+width: 40%;
+  }
+
+  .fleker__logo {
+    max-width: 90%;
+  }
+}

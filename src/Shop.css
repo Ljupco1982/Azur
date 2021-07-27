@@ -1,0 +1,67 @@
+.shop {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+
+  }
+
+  .shop__img {
+position: absolute;
+background-size: cover;
+height: 100vh;
+width: 100vw;
+  }
+
+  .shop__fleker {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.shop__fleker h1 {
+  font-size: 20px;
+  color: orange;
+}
+
+.shop__fleker button {
+  background-color: lightblue;
+  box-shadow: 0 5px 5px rgba(32, 204, 204, 0.7);
+}
+
+.shop__fleker > img {
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px rgba(32, 204, 204, 0.7);
+
+ 
+  }
+
+.shop__pike h1 {
+    font-size: 20px;
+    color: orange;
+  }
+  
+  .shop__pike button {
+    background-color: lightblue;
+    box-shadow: 0 5px 5px rgba(32, 204, 204, 0.7);
+  }
+  
+  .shop__pike > img {
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px rgba(32, 204, 204, 0.7);
+
+  }
+
+  .shop__pike {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+  }

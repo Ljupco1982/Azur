@@ -1,0 +1,28 @@
+.footer {
+  border-top: 1px solid lightgray;
+  padding: 1px;
+  background-color: #f7f7f7;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  background: linear-gradient(to right, #ff8008, #ffc837);
+  width: 100%;
+  border-top: 1px solid orange;
+  z-index: 100;
+  max-height: 50px;
+}
+
+.footer > p {
+  padding: 2px;
+  font-size: 14px;
+}
+
+@media (max-width: 1020px) {
+ 
+
+  .footer {
+    visibility: hidden;
+  }
+ 
+  
+}

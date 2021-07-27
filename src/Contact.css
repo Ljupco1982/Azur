@@ -1,0 +1,251 @@
+.section {
+  position: relative;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  max-height: 100vh;
+  background-color: #112d42;
+  min-width: 600px;
+}
+
+.section::before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  min-width: 30%;
+  height: 100%;
+  background-color: #03a9f4;
+}
+
+
+.section .container {
+  position: relative;
+  min-width: 30%;
+  min-height: 550px;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  padding-left: 10%;
+}
+
+.section .container .contactInfo {
+  position: absolute;
+  top: 40px;
+  width: 320px;
+  height: 465px;
+  /* height: calc(100% - 80px); */
+  background-color: #0f3959;
+  z-index: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.section .container .contactInfo h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.section .container .contactInfo .info {
+  position: relative;
+  margin: 20px 0;
+}
+
+.section .container .contactInfo .info li {
+  position: relative;
+  list-style: none;
+  display: flex;
+  margin: 20px 0;
+  cursor: pointer;
+  align-items: flex-start;
+}
+
+.section .container .contactInfo .info li span:nth-child(1) {
+  width: 30px;
+  min-width: 30px;
+}
+
+.MuiSvgIcon-root {
+  color: orange;
+  opacity: 1;
+}
+
+.section .container .contactInfo .info li span:nth-child(2) {
+  color: #fff;
+  margin-left: 10px;
+  font-weight: 300;
+  opacity: 0.5;
+}
+
+.MuiSvgIcon-root:hover,
+section .container .contactInfo .info li:hover span:nth-child(2) {
+  opacity: 1;
+}
+
+.section .container .contactForm {
+  position: absolute;
+  min-width: 600px;
+  padding: 40px 50px;
+  background-color: #fff;
+  margin-left: 150px;
+  padding-left: 200px;
+  width: calc(100% - 150px);
+  height: 100%;
+  box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+}
+
+.section .container .contactForm h2 {
+  color: #0f3959;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.section .container .contactForm .formBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.section .container .contactForm .formBox .inputBox {
+  position: relative;
+  margin: 0 0 35px 0;
+}
+
+.section .container .contactForm .formBox .inputBox.w50 {
+  width: 100%;
+}
+
+.section .container .contactForm .formBox .inputBox.w100 {
+  width: 100%;
+}
+
+.section .container .contactForm .formBox .inputBox input,
+.section .container .contactForm .formBox .inputBox textarea {
+  width: 100% !important;
+  padding: 5px 0;
+  resize: none;
+  font-size: 18px;
+  font-weight: 300;
+  color: #333;
+  border: none;
+  border-bottom: 1px solid #777;
+  outline: none;
+}
+
+.section .container .contactForm .formBox .inputBox textarea {
+  min-height: 120px;
+}
+
+.section .container .contactForm .formBox .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #333;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+.section .container .contactForm .formBox .inputBox input:focus ~ span,
+.section .container .contactForm .formBox .inputBox textarea:focus ~ span,
+.section .container .contactForm .formBox .inputBox input:valid ~ span,
+.section .container .contactForm .formBox .inputBox textarea:valid ~ span {
+  transform: translateY(-20px);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: orange;
+}
+
+.section .container .contactForm .formBox .inputBox input[type='submit'] {
+  position: relative;
+  cursor: pointer;
+  background-color: #0f3959;
+  color: #fff;
+  border: none;
+  max-width: 150px;
+  padding: 12px;
+}
+
+.section .container .contactForm .formBox .inputBox input[type='submit']:hover {
+  color: orange;
+}
+
+.linnnk {
+  border-radius: 10px;
+  background-color: orange;
+  padding: 5px 15px;
+  outline: none;
+  text-decoration: none;
+  font-size: small;
+  font-weight: bold;
+}
+
+.linnnk:hover {
+  transform: scale(0.95);
+  transition: all 0.5s ease-in;
+}
+.linnnk:hover > h1 {
+  transform: scale(0.95);
+  color: black;
+}
+
+@media (max-width: 720px) {
+  .section {
+    min-width: 300px;
+    z-index: -1;
+  }
+  .section .container .contactForm {
+    position: absolute;
+    top: 550px;
+    min-width: 350px;
+    padding: 20px;
+    margin: 10px;
+    left: 0;
+  }
+  .contactInfo {
+    max-height: 350px;
+    min-width:90%;
+    padding-right: 100px;
+  }
+  .header {
+    z-index: 100;
+  }
+
+  .google {
+  position: relative;
+  bottom: -760px;
+  left: 150px;
+  width: 100px;
+  max-height: 60px;
+  }
+  .google  h1 {
+    font-size: 10px;
+  }
+  
+  .section::before {
+    content: '';
+    top: 20%;
+    left: 10%;
+    width: 30%;
+    max-width: 60px;
+    max-height: 50vh;
+    background-color: #03a9f4;
+  }
+
+
+  .logo {
+    visibility: hidden;
+  }
+  
+  
+}

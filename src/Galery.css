@@ -1,0 +1,123 @@
+.galery {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.galery__logo {
+  height: 345px;
+  width: 440px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(245, 161, 7, 0.5);
+  object-fit: cover;
+}
+
+/* .galery__img > img {
+  width: 340px;
+  height: 215px;
+  object-fit: cover;
+}  */
+
+a > img {
+  width: 440px;
+  border-radius: 8px;
+}
+
+.galery__text {
+  margin-top: 15px;
+}
+
+.galery__text > h1 {
+  color: white;
+  width: 60%;
+  margin: auto;
+  font-size: medium;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.galery__image,
+.galery-lightbox__image {
+  height: 440px;
+  width: 900px;
+  border-radius: 5px;
+}
+
+.galery-lightbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0, 1);
+  transition: transform 150ms ease-in-out;
+  transform-origin: right;
+  padding: 7em;
+  position: fixed;
+  top: 3%;
+  left: 0;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}
+
+.galery-lightbox:target {
+  transform: scale(1, 1);
+  transform-origin: left;
+}
+
+.galery-lightbox__content {
+  border-top: 1px solid orange;
+  border-left: 1px solid orange;
+  border-right: 1px solid orange;
+  border-radius: 15px;
+  padding: 10px;
+  background: black;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  right: -1em;
+  top: -1em;
+  border: white 2px solid;
+  display: flex;
+  width: 78em;
+  height: 37em;
+  background: red;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  z-index: 100;
+  opacity: 0;
+}
+
+.close::after {
+  content: 'x';
+  color: white;
+}
+
+@media (max-width: 1020px) {
+  .galery__image,
+  .galery-lightbox__image {
+    height: 400px;
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  .galery__img {
+    padding-left: 20px;
+  }
+  .galery-lightbox__image {
+    max-width: 330px;
+  }
+
+  .galery__logo {
+    max-width: 90%;
+  }
+}

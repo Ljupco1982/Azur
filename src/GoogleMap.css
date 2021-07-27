@@ -1,0 +1,14 @@
+.map__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.map__text > input {
+  background-color: orange;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
