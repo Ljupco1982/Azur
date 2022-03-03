@@ -44,7 +44,7 @@ function Contact() {
                   <span>
                     <LocationOnIcon />
                   </span>
-                  <span>Azur Skopje Ul.Novoselski Pat BB 1000 Skopje</span>
+                  <span>{t('contact.1')}</span>
                 </li>
                 <li>
                   <span>

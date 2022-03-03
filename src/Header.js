@@ -24,7 +24,7 @@ function Header() {
     <div className='header'>
       <nav>
       <div class="header__lang">
-        {/* <h1>EN/МК</h1> */}
+        {/* {<h1>EN/МК</h1> } */}
         <ul>
           
           <div className='lang__button'>

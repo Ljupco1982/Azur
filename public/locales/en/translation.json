@@ -33,6 +33,9 @@
   "Pike": {
     "1": "Pike"
   },
+  "Boho": {
+    "1": "Boho"
+  },
   "More": {
     "1": "More"
   },
@@ -43,10 +46,10 @@
     "1": "Two Colored Fleker"
   },
   "konectext": {
-    "1": "We are a prime Open End Yarn Manufacturer and Exporter from Macedonia. We manufacture a superior quality Open End Yarn. We also wholesale Open End Yarns, which are really master in their category, and available with us on very economical quotes and also involved in supply of optimum quality Open End Yarn. We are far famed as one of the leading Open End Yarn Supplier in the the region.We produce Open End Yarn in the count range from Nm 10 to Nm 40"
+    "1": "We are a prime Open End Yarn Manufacturer and Exporter from Macedonia. We manufacture a superior quality Open End Yarn. We also wholesale Open End Yarns, which are really master in their category, and available with us on very economical quotes and also involved in supply of optimum quality Open End Yarn. We are far famed as one of the leading Open End Yarn Supplier in the the region.We produce Open End Yarn in the count range from Nm 6 to Nm 30"
   },
   "krpitext": {
-    "1": "KITCHEN TOWELS.  The so called waffle kitchen towels are towels with great power of absorption and high quality"
+    "1": "KITCHEN TOWELS.  The so called 'waffle' kitchen towels are towels with great power of absorption and high quality"
   },
 
   "Light Grey": {
@@ -72,7 +75,7 @@
     "1": "Milky White"
   },
   "Hazelnutt": {
-    "1": "Hazelnutt"
+    "1": "Hazelnut"
   },
   "Black": {
     "1": "Black"
@@ -87,13 +90,13 @@
     "1": "White"
   },
   "Hazelnutt/White": {
-    "1": "Hazelnutt/White"
+    "1": "Hazelnut/White"
   },
   "Caffe/White": {
     "1": "Caffe/White"
   },
   "Caffe/Huzelnutt": {
-    "1": "Caffe/Hazelnutt"
+    "1": "Caffe/Hazelnut"
   },
   "Black/White": {
     "1": "Black/White"
@@ -219,6 +222,10 @@
 
   "map": {
     "1": "Show Us On Map"
+  },
+
+  "message": {
+    "1": "Send a Message"
   },
   "first": {
     "1": "First name"

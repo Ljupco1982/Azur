@@ -12,7 +12,7 @@ import Img22 from './ednobojni/SIVO.jpg';
 import Img33 from './ednobojni/img33.jpg';
 import Img44 from './ednobojni/img44.jpg';
 import Img7 from './ednobojni/img77.jpg';
-import Img66 from './ednobojni/BELENO.jpg';
+import Img66 from './ednobojni/BEZ.jpg';
 import Img77 from './ednobojni/LESNIK.jpg';
 import Img88 from './ednobojni/img88.jpg';
 import Img888 from './ednobojni/img888.jpg';

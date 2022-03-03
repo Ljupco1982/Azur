@@ -15,6 +15,7 @@ import Konec from './Konec';
 import Frotir from './Frotir';
 import Krpi from './Krpi';
 import Pike from './Pike';
+import Boho from './Boho';
 import Contact from './Contact';
 import Shop from './Shop';
 import AboutUs from './AboutUs';
@@ -44,6 +45,7 @@ function App() {
         <Route path='/frotir' component={Frotir} />
         <Route path='/krpi' component={Krpi} />
         <Route path='/pike' component={Pike} />
+        <Route path='/boho' component={Boho} />
         <Route path='/shop' component={Shop} />
         <Route path='/Efleker' component={Efleker} />
         <Route path='/map' component={GoogleMap} />

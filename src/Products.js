@@ -63,6 +63,14 @@ function Products() {
             </Button>
           </div>
         </Link>
+        <Link className='link' to='/boho'>
+          <div className='products__pike'>
+            <img className='products__img8' src={Img11} />
+            <Button className='product__button'>
+              <h1>{t('Boho.1')}</h1>
+            </Button>
+          </div>
+        </Link>
       </div>
       <Footer />
     </div>

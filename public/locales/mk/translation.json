@@ -32,6 +32,9 @@
   "Pike": {
     "1": "Пике"
   },
+  "Boho": {
+    "1": "Бохо"
+  },
   "More": {
     "1": "Повеќе"
   },
@@ -42,7 +45,7 @@
     "1": "Двобојни Флекери"
   },
   "konectext": {
-    "1": "Ние сме главни произведувачи и извезувачи на Open End конец vo Makedonija. We manufacture a superior quality Open End Yarn. We also wholesale Open End Yarns, which are really master in their category, and available with us on very economical quotes and also involved in supply of optimum quality Open End Yarn. We are far famed as one of the leading Open End Yarn Supplier in the the region.We produce Open End Yarn in the count range from Nm 6 to Nm 30.1"
+    "1": "Ние сме главни произведувачи и извезувачи на Open End конец во Македонија. Произведуваме оупн-енд памучно  предиво со висок квалитет. Исто така и продаваме на големо високо квалитетно оупн-енд предиво во различни количини. Познати сме како еден од водечките снабдувачи со оупн-енд предиво. Произведуваме оупн-енд предиво со нумерација 6 до нумерација 30."
   },
   "krpitext": {
     "1": "КУЈНСКИ КРПИ. Вафел кујнските крпи се крпи со висока абсорбирачка моќ и со висок квалитет"
@@ -211,7 +214,7 @@
 },
 
 "ContactInfo": {
-  "1": "Контакт Инфо"
+  "1": "Контакт инфо"
 },
 
 "map": {
@@ -227,6 +230,9 @@
 
 "mobile": {
   "1": "Телефонски Број"
+},
+"message": {
+  "1": "Испрати порака"
 },
 
 "mail": {

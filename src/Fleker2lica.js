@@ -1,11 +1,11 @@
 import React from 'react';
 import './Fleker2lica.css';
 import Img1 from './dvobojni/LESNIK BELO.jpg';
-import Img2 from './dvobojni/KAFE BELO.jpg';
+// import Img2 from './dvobojni/KAFE BELO.jpg';
 import Img3 from './dvobojni/CRNO BELO.jpg';
 import Img4 from './dvobojni/SIVO BELO.jpg';
 import Img5 from './dvobojni/CRVENO BELO.jpg';
-import Img55 from './dvobojni/CRVENO BELO 1.jpg';
+// import Img55 from './dvobojni/CRVENO BELO 1.jpg';
 import Img6 from './dvobojni/SVETLO SIVO BELO.jpg';
 import Img66 from './dvobojni/SVETLO SIVO BELO 1.jpg';
 import Img7 from './dvobojni/KAFE LESNIK.jpg';
@@ -48,7 +48,7 @@ function Fleker2lica() {
           <p>70 x 250</p>
         </div>
       </div>
-      <div className='flekeri2lica__flekeri'>
+      {/* <div className='flekeri2lica__flekeri'>
         <div className='flekeri2'>
           <img className='flekeri2__img' src={Img2} />
           <a href='#fleker__img2'>
@@ -73,7 +73,7 @@ function Fleker2lica() {
           <p>70 x 200</p>
           <p>70 x 250</p>
         </div>
-      </div>
+      </div> */}
       <div className='flekeri2lica__flekeri'>
         <div className='flekeri2'>
           <img className='flekeri2__img' src={Img7} />
@@ -126,7 +126,7 @@ function Fleker2lica() {
           <p>70 x 250</p>
         </div>
       </div>
-      <div className='flekeri2lica__flekeri'>
+      {/* <div className='flekeri2lica__flekeri'>
         <div className='flekeri2'>
           <img className='flekeri2__img' src={Img5} />
           <a href='#fleker__img5'>
@@ -151,7 +151,7 @@ function Fleker2lica() {
           <p>70 x 200</p>
           <p>70 x 250</p>
         </div>
-      </div>
+      </div> */}
       <div className='flekeri2lica__flekeri'>
         <div className='flekeri2'>
           <img className='flekeri2__img' src={Img6} />

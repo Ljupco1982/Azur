@@ -56,15 +56,24 @@ import Img37 from './galery/kafe1.jpg';
 import Img371 from './galery/kafe2.jpg';
 import Img38 from './galery/zeleno.jpg';
 import Img381 from './galery/zeleno1.jpg';
+import Img01 from './galery/sivo01.jpg';
+import Img011 from './galery/sivo11.jpg';
+import Img02 from './galery/bez2.jpg';
+import Img022 from './galery/bez22.jpg';
+import Img03 from './galery/lesnik3.jpg';
+import Img033 from './galery/lesnik33.jpg';
+import Img04 from './galery/kafe4.jpg';
+import Img044 from './galery/kafe44.jpg';
+import Img05 from './galery/belo5.jpg';
+import Img055 from './galery/belo55.jpg';
+import Img06 from './galery/t.sivo6.jpg';
+import Img066 from './galery/t.sivo66.jpg';
+
 import Footer from './Footer';
-
-
-
 
 function Galery() {
   return (
     <div className='galery'>
-    
       <div className='galery__img'>
         <a href='#galery__img'>
           <img src={Img1} alt='' className='galery__logo' />
@@ -75,12 +84,9 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img1} alt='' />
-         
         </div>
       </div>
 
-      
-      
       <div className='galery__img'>
         <a href='#galery__img2'>
           <img src={Img2} alt='' className='galery__logo' />
@@ -91,7 +97,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img2} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -104,7 +109,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img3} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -117,7 +121,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img4} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -130,7 +133,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img5} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -143,7 +145,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img6} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -156,7 +157,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img7} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -169,7 +169,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img8} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -182,7 +181,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img9} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -195,7 +193,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img10} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -208,7 +205,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img11} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -221,7 +217,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img12} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -234,7 +229,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img13} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -247,7 +241,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img14} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -260,7 +253,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img15} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -273,7 +265,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img16} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -286,7 +277,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img17} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -299,7 +289,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img18} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -312,7 +301,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img19} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -325,7 +313,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img20} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -338,7 +325,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img21} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -351,7 +337,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img211} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -364,7 +349,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img22} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -377,7 +361,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img221} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -390,7 +373,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img23} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -403,7 +385,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img231} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -416,7 +397,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img24} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -429,7 +409,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img241} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -442,7 +421,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img25} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -455,7 +433,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img251} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -468,7 +445,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img26} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -481,7 +457,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img261} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -494,7 +469,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img27} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -507,9 +481,154 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img271} alt='' />
-         
         </div>
       </div>
+      <div className='galery__img'>
+        <a href='#galery__img01'>
+          <img src={Img01} alt='' className='galery__logo' />
+        </a>
+      </div>
+
+      <div className='galery-lightbox' id='galery__img01'>
+        <div className='galery-lightbox__content'>
+          <a href='#galery' className='close'></a>
+          <img className='galery-lightbox__image' src={Img011} alt='' />
+          </div>
+          </div>  
+
+
+
+          <div className='galery__img'>
+        <a href='#galery__img02'>
+          <img src={Img02} alt='' className='galery__logo' />
+        </a>
+      </div>
+
+      <div className='galery-lightbox' id='galery__img02'>
+        <div className='galery-lightbox__content'>
+          <a href='#galery' className='close'></a>
+          <img className='galery-lightbox__image' src={Img022} alt='' />
+          </div>
+          </div>  
+        
+
+
+          <div className='galery__img'>
+            <a href='#galery__img03'>
+              <img src={Img03} alt='' className='galery__logo' />
+            </a>
+          </div>
+
+          <div className='galery-lightbox' id='galery__img03'>
+            <div className='galery-lightbox__content'>
+              <a href='#galery' className='close'></a>
+              <img className='galery-lightbox__image' src={Img033} alt='' />
+            </div>
+          </div>
+
+          <div className='galery__img'>
+            <a href='#galery__img04'>
+              <img src={Img04} alt='' className='galery__logo' />
+            </a>
+          </div>
+
+          <div className='galery-lightbox' id='galery__img04'>
+            <div className='galery-lightbox__content'>
+              <a href='#galery' className='close'></a>
+              <img className='galery-lightbox__image' src={Img044} alt='' />
+            </div>
+          </div>
+          <div className='galery__img'>
+            <a href='#galery__img05'>
+              <img src={Img05} alt='' className='galery__logo' />
+            </a>
+          </div>
+
+          <div className='galery-lightbox' id='galery__img05'>
+            <div className='galery-lightbox__content'>
+              <a href='#galery' className='close'></a>
+              <img className='galery-lightbox__image' src={Img055} alt='' />
+            </div>
+          </div>
+
+          <div className='galery__img'>
+            <a href='#galery__img06'>
+              <img src={Img06} alt='' className='galery__logo' />
+            </a>
+          </div>
+
+          <div className='galery-lightbox' id='galery__img06'>
+            <div className='galery-lightbox__content'>
+              <a href='#galery' className='close'></a>
+              <img className='galery-lightbox__image' src={Img066} alt='' />
+            </div>
+          </div>
+{/* 
+          <div className='galery__img'>
+            <a href='#galery__img02'>
+              <img src={Img02} alt='' className='galery__logo' />
+            </a>
+          </div>
+
+          <div className='galery-lightbox' id='galery__img02'>
+            <div className='galery-lightbox__content'>
+              <a href='#galery' className='close'></a>
+              <img className='galery-lightbox__image' src={Img022} alt='' />
+            </div>
+          </div>
+
+          <div className='galery__img'>
+            <a href='#galery__img03'>
+              <img src={Img03} alt='' className='galery__logo' />
+            </a>
+          </div>
+
+          <div className='galery-lightbox' id='galery__img03'>
+            <div className='galery-lightbox__content'>
+              <a href='#galery' className='close'></a>
+              <img className='galery-lightbox__image' src={Img033} alt='' />
+            </div>
+          </div>
+
+          <div className='galery__img'>
+            <a href='#galery__img04'>
+              <img src={Img04} alt='' className='galery__logo' />
+            </a>
+          </div>
+
+          <div className='galery-lightbox' id='galery__img04'>
+            <div className='galery-lightbox__content'>
+              <a href='#galery' className='close'></a>
+              <img className='galery-lightbox__image' src={Img044} alt='' />
+            </div>
+          </div>
+          <div className='galery__img'>
+            <a href='#galery__img05'>
+              <img src={Img05} alt='' className='galery__logo' />
+            </a>
+          </div>
+
+          <div className='galery-lightbox' id='galery__img05'>
+            <div className='galery-lightbox__content'>
+              <a href='#galery' className='close'></a>
+              <img className='galery-lightbox__image' src={Img055} alt='' />
+            </div>
+          </div>
+
+          <div className='galery__img'>
+            <a href='#galery__img06'>
+              <img src={Img06} alt='' className='galery__logo' />
+            </a>
+          </div>
+
+          <div className='galery-lightbox' id='galery__img06'>
+            <div className='galery-lightbox__content'>
+              <a href='#galery' className='close'></a>
+              <img className='galery-lightbox__image' src={Img066} alt='' />
+            </div>
+          </div> */}
+     
+      
       <div className='galery__img'>
         <a href='#galery__img28'>
           <img src={Img28} alt='' className='galery__logo' />
@@ -520,7 +639,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img28} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -533,7 +651,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img29} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -546,7 +663,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img291} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -559,7 +675,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img292} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -572,7 +687,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img30} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -585,7 +699,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img301} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -598,7 +711,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img31} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -611,7 +723,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img311} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -624,7 +735,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img32} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -637,7 +747,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img321} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -650,7 +759,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img33} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -663,7 +771,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img331} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -676,7 +783,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img34} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -689,7 +795,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img341} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -702,7 +807,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img35} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -715,7 +819,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img351} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -728,7 +831,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img36} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -741,7 +843,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img361} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -754,7 +855,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img37} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -767,7 +867,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img371} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -780,7 +879,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img38} alt='' />
-         
         </div>
       </div>
       <div className='galery__img'>
@@ -793,7 +891,6 @@ function Galery() {
         <div className='galery-lightbox__content'>
           <a href='#galery' className='close'></a>
           <img className='galery-lightbox__image' src={Img381} alt='' />
-         
         </div>
       </div>
       <Footer />
