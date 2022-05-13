@@ -18,7 +18,7 @@ function Contact() {
     emailjs
       .sendForm(
         'gmail',
-        'template_mgobp6s',
+        'template_rvskit7',
         e.target,
         'user_kCvWSHYGeC2W30M1jEnId'
       )
